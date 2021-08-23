@@ -1,0 +1,12 @@
+citHeader("To cite nlp-youtube-comments in publications, please use:")
+
+
+citEntry(entry = "manual",
+    title = "{nlp-youtube-comments}: text studies : case study: "Rezo - Die Zerstörung der CDU."",
+    author = "Andreas Einwiller",
+    year = "2021",
+    url = "https://github.com/iTsluku/nlp-youtube-comments",
+    textVersion  = paste("Einwiller, Andreas (2021).",
+        "nlp-youtube-comments: text studies : case study: "Rezo - Die Zerstörung der CDU."",
+        "https://github.com/iTsluku/nlp-youtube-comments")
+)
