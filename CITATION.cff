@@ -1,12 +1,8 @@
-citHeader("To cite nlp-youtube-comments in publications, please use:")
-
-
-citEntry(entry = "manual",
-    title = "{nlp-youtube-comments}: text studies : case study: "Rezo - Die Zerstörung der CDU."",
-    author = "Andreas Einwiller",
-    year = "2021",
-    url = "https://github.com/iTsluku/nlp-youtube-comments",
-    textVersion  = paste("Einwiller, Andreas (2021).",
-        "nlp-youtube-comments: text studies : case study: "Rezo - Die Zerstörung der CDU."",
-        "https://github.com/iTsluku/nlp-youtube-comments")
-)
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Einwiller"
+  given-names: "Andreas"
+title: "nlp-youtube-comments"
+date-released: 2021-08-23
+url: "https://github.com/iTsluku/nlp-youtube-comments"
