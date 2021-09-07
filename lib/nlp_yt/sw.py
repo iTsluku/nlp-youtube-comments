@@ -62,9 +62,9 @@ stop_words_add = [
 ]
 
 def get_stop_words_add():
-    ''' return stop_word_add'''
+    ''' return stop_words_add'''
     return stop_words_add
 
 def get_stop_words():
     ''' return german stopwords -- union of german nltk stopwords and stop_words_add'''
-    return list(set(stopwords.words("german"))) + stop_words_add
+    return list(set(stopwords.words("german"))) + get_stop_words_add()
