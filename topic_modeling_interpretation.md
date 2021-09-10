@@ -41,7 +41,7 @@
 ### Topic: 7 | weights_mean: 0.0048 | relative weight: 0.1337 | Klima
 [('bla ', 0.008), ('klimaforscher ', 0.005), ('ozonloch ', 0.005), ('faul ', 0.005), ('vernünftige ', 0.005), ('funk ', 0.004), ('technisch ', 0.004), ('brauche ', 0.004), ('wasserstoff ', 0.004), ('legitim', 0.004)] 
 
-### Topic: 8 | weights_mean: 0.0053 | relative weight: 0.1476 | Video1
+### Topic: 8 | weights_mean: 0.0053 | relative weight: 0.1476 | Video
 [('video ', 0.008), ('cdu ', 0.007), ('partei ', 0.005), ('wählen ', 0.005), ('rezo ', 0.005), ('menschen ', 0.005), ('afd ', 0.005), ('parteien ', 0.005), ('gut ', 0.004), ('meinung', 0.004)] 
 
 
