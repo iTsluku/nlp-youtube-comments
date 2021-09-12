@@ -3,3 +3,8 @@ data/initial_comments/
 
 # replies to top-level comments as txt
 data/replies_to_initial_comments/
+
+lib/__pycache__/
+lib/nlp_yt/__pycache__/
+
+
