@@ -1,5 +1,5 @@
 # top-level comments as txt
-data/initial_comments
+data/initial_comments/
 
 # replies to top-level comments as txt
-data/replies_to_initial_comments
+data/replies_to_initial_comments/
