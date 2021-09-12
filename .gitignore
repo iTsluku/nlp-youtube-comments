@@ -4,7 +4,11 @@ data/initial_comments/
 # replies to top-level comments as txt
 data/replies_to_initial_comments/
 
+data/models/
+data/sentiWS/
+tex/
+
 lib/__pycache__/
 lib/nlp_yt/__pycache__/
 
-
+**/*.ipynb_checkpoints/
