@@ -7,15 +7,15 @@
 # comment topics
 
 + Unbekannt (Schlüsselwörter zu breit verteilt)
++ Video (Meinung + Rezo-Video-Bezug Allgemein, Influencer, Medien)
 + Klima (Klimawandel, Wissenschaftler, IPCC)
-+ Soziale Gerechtigkeit
-+ Propaganda (EIKE, Volksverpetzer)
-+ Hassrede (Hass, Herabsetzung, Verunglimpfung)
-+ Hetze (Aufheizen, Spalten, Miene Waziri)
 + Parteien (Wahl, Parteiprogramm)
 + Politiker (Personen)
-+ Video (Meinung + Rezo-Video-Bezug Allgemein, Influencer, Medien)
 + Corona
++ Soziale Gerechtigkeit
++ Hetze (Aufheizen, Spalten, Miene Waziri)
++ Hassrede (Hass, Herabsetzung, Verunglimpfung)
++ Propaganda (EIKE, Volksverpetzer)
 
 
 ## 2019-05 | 8 Topics | coherence 0.7661385957563174
