@@ -5,7 +5,7 @@
 + Politiker
 
 
-# comment topics
+# comment topics (manually identified labels)
 
 + Unbekannt (Schlüsselwörter zu breit verteilt)
 + Video (Meinung + Rezo-Video-Bezug Allgemein, Influencer, Medien)
@@ -32,6 +32,10 @@
 + Annalena Baerbock
 + Boris Palmer
 + Werner Vogel
++ Alice Weidel
+
+### labeling alg/ sequential steps/ guidelines
+TODO
 
 
 # keyword sets (limited to top10)
@@ -282,16 +286,16 @@
 ### Topic: 4 | weights_mean: 0.0019 | relative weight: 0.1275 | Propaganda
 [('afd ', 0.003), ('eike ', 0.002), ('rezo ', 0.002), ('marionette ', 0.002), ('leben ', 0.002), ('propaganda ', 0.002), ('deutschland ', 0.002), ('politiker ', 0.002), ('gut ', 0.001), ('grüne', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.0013 | relative weight: 0.0872 | Unbekannt
+### Topic: 5 | weights_mean: 0.0013 | relative weight: 0.0872 | Video
 [('video ', 0.003), ('afd ', 0.002), ('politiker ', 0.001), ('ki ', 0.001), ('warum ', 0.001), ('like ', 0.001), ('vielleicht ', 0.001), ('erreichen ', 0.001), ('gut ', 0.001), ('menschen', 0.001)] 
 
 ### Topic: 6 | weights_mean: 0.0016 | relative weight: 0.1074 | Unbekannt
 [('afd ', 0.003), ('menschen ', 0.002), ('wissen ', 0.002), ('warum ', 0.002), ('sieht ', 0.002), ('jahr ', 0.001), ('deutschland ', 0.001), ('michbernd ', 0.001), ('partei ', 0.001), ('denke', 0.001)] 
 
-### Topic: 7 | weights_mean: 0.0016 | relative weight: 0.1074 | Klima
+### Topic: 7 | weights_mean: 0.0016 | relative weight: 0.1074 | Unbekannt
 [('afd ', 0.003), ('video ', 0.002), ('meinung ', 0.002), ('danke ', 0.002), ('klimawandel ', 0.002), ('gute ', 0.001), ('troll ', 0.001), ('eike ', 0.001), ('gerne ', 0.001), ('richtig', 0.001)] 
 
-### Topic: 8 | weights_mean: 0.0018 | relative weight: 0.1208 | Video
+### Topic: 8 | weights_mean: 0.0018 | relative weight: 0.1208 | Unbekannt
 [('afd ', 0.003), ('fakten ', 0.002), ('partei ', 0.002), ('video ', 0.002), ('sollten ', 0.002), ('deutschland ', 0.002), ('eike ', 0.002), ('jahren ', 0.001), ('grünen ', 0.001), ('boomer', 0.001)] 
 
 
@@ -302,7 +306,7 @@
 ### Topic: 1 | weights_mean: 0.0012 | relative weight: 0.1188 | Unbekannt
 [('rezo ', 0.002), ('afd ', 0.002), ('eltern ', 0.001), ('passt ', 0.001), ('bernd ', 0.001), ('deutschland ', 0.001), ('ziele ', 0.001), ('eike ', 0.001), ('landwirtschaft ', 0.001), ('mach', 0.001)] 
 
-### Topic: 2 | weights_mean: 0.0013 | relative weight: 0.1287 | Video
+### Topic: 2 | weights_mean: 0.0013 | relative weight: 0.1287 | Unbekannt
 [('afd ', 0.002), ('gut ', 0.002), ('partei ', 0.002), ('warum ', 0.001), ('leute ', 0.001), ('video ', 0.001), ('nazi ', 0.001), ('kannst ', 0.001), ('quelle ', 0.001), ('denke', 0.001)] 
 
 ### Topic: 3 | weights_mean: 0.0012 | relative weight: 0.1188 | Hetze
@@ -311,13 +315,13 @@
 ### Topic: 4 | weights_mean: 0.0012 | relative weight: 0.1188 | Video
 [('meinung ', 0.002), ('video ', 0.002), ('generation ', 0.001), ('cdu ', 0.001), ('grünen ', 0.001), ('gut ', 0.001), ('afd ', 0.001), ('rezo ', 0.001), ('menschen ', 0.001), ('quellen', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.0012 | relative weight: 0.1188 | Video
+### Topic: 5 | weights_mean: 0.0012 | relative weight: 0.1188 | Unbekannt
 [('afd ', 0.003), ('medien ', 0.001), ('direkt ', 0.001), ('video ', 0.001), ('regierung ', 0.001), ('quellen ', 0.001), ('eike ', 0.001), ('wegen ', 0.001), ('vielleicht ', 0.001), ('rechten', 0.001)] 
 
 ### Topic: 6 | weights_mean: 0.0012 | relative weight: 0.1188 | Klima
 [('wissenschaftler ', 0.002), ('menschen ', 0.002), ('politiker ', 0.001), ('erwärmung ', 0.001), ('afd ', 0.001), ('lügen ', 0.001), ('geredet ', 0.001), ('prozent ', 0.001), ('jahren ', 0.001), ('dankbar', 0.001)] 
 
-### Topic: 7 | weights_mean: 0.0014 | relative weight: 0.1386 | Klima
+### Topic: 7 | weights_mean: 0.0014 | relative weight: 0.1386 | Unbekannt
 [('afd ', 0.002), ('umwelt ', 0.002), ('cdu ', 0.002), ('klimawandel ', 0.002), ('video ', 0.001), ('echt ', 0.001), ('kaufen ', 0.001), ('brav ', 0.001), ('rezo ', 0.001), ('allerdings', 0.001)] 
 
 ### Topic: 8 | weights_mean: 0.0014 | relative weight: 0.1386 | Parteien
@@ -340,10 +344,10 @@
 ### Topic: 4 | weights_mean: 0.0018 | relative weight: 0.1192 | Unbekannt
 [('afd ', 0.003), ('partei ', 0.002), ('gut ', 0.002), ('deutschland ', 0.002), ('video ', 0.002), ('eike ', 0.002), ('freunde ', 0.002), ('liebe ', 0.001), ('staat ', 0.001), ('menschen', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.0017 | relative weight: 0.1126 | Video
+### Topic: 5 | weights_mean: 0.0017 | relative weight: 0.1126 | Unbekannt
 [('gut ', 0.003), ('afd ', 0.002), ('bernd ', 0.002), ('video ', 0.002), ('finde ', 0.002), ('menschen ', 0.002), ('jahren ', 0.001), ('kannst ', 0.001), ('lol ', 0.001), ('ey', 0.001)] 
 
-### Topic: 6 | weights_mean: 0.0023 | relative weight: 0.1523 | Video
+### Topic: 6 | weights_mean: 0.0023 | relative weight: 0.1523 | Unbekannt
 [('afd ', 0.003), ('cdu ', 0.003), ('video ', 0.003), ('danke ', 0.002), ('mensch ', 0.002), ('eike ', 0.002), ('rezo ', 0.002), ('bullshit ', 0.002), ('parteien ', 0.002), ('essen', 0.002)] 
 
 ### Topic: 7 | weights_mean: 0.0018 | relative weight: 0.1192 | Video
@@ -369,7 +373,7 @@
 ### Topic: 4 | weights_mean: 0.002 | relative weight: 0.1058 | Video
 [('nächsten ', 0.002), ('video ', 0.002), ('jahre ', 0.002), ('wahl ', 0.002), ('spaltet ', 0.002), ('ruhig ', 0.002), ('schweigen ', 0.002), ('ruiniert ', 0.002), ('zuvor ', 0.002), ('gerade', 0.002)] 
 
-### Topic: 5 | weights_mean: 0.0014 | relative weight: 0.0741 | Video
+### Topic: 5 | weights_mean: 0.0014 | relative weight: 0.0741 | Unbekannt
 [('menschen ', 0.002), ('afd ', 0.002), ('nichtdeutschen ', 0.002), ('gut ', 0.002), ('nix ', 0.001), ('insgesamt ', 0.001), ('rezo ', 0.001), ('politiker ', 0.001), ('video ', 0.001), ('fakten', 0.001)] 
 
 ### Topic: 6 | weights_mean: 0.0016 | relative weight: 0.0847 | Unbekannt
@@ -389,13 +393,13 @@
 ### Topic: 1 | weights_mean: 0.0022 | relative weight: 0.1043 | Video
 [('deutschland ', 0.003), ('video ', 0.003), ('grünen ', 0.002), ('wählen ', 0.002), ('cdu ', 0.002), ('positive ', 0.002), ('germanen ', 0.002), ('rezo ', 0.002), ('bevorzugt ', 0.002), ('offensichtlich', 0.002)] 
 
-### Topic: 2 | weights_mean: 0.002 | relative weight: 0.0948 | Video
+### Topic: 2 | weights_mean: 0.002 | relative weight: 0.0948 | Unbekannt
 [('afd ', 0.003), ('cdu ', 0.002), ('bitte ', 0.002), ('leute ', 0.002), ('meinung ', 0.002), ('politiker ', 0.002), ('gut ', 0.002), ('video ', 0.002), ('jahr ', 0.002), ('dumm', 0.001)] 
 
 ### Topic: 3 | weights_mean: 0.008 | relative weight: 0.3791 | Unbekannt
 [('fragen ', 0.008), ('datei ', 0.008), ('nimmst ', 0.008), ('stets ', 0.008), ('vollstem ', 0.008), ('herzen ', 0.008), ('pdf ', 0.008), ('melden ', 0.008), ('empfehle ', 0.008), ('ruhe', 0.008)] 
 
-### Topic: 4 | weights_mean: 0.0012 | relative weight: 0.0569 | Parteien
+### Topic: 4 | weights_mean: 0.0012 | relative weight: 0.0569 | Unbekannt
 [('video ', 0.002), ('gut ', 0.002), ('demokratie ', 0.001), ('grünen ', 0.001), ('monat ', 0.001), ('afd ', 0.001), ('linke ', 0.001), ('thema ', 0.001), ('nämlich ', 0.001), ('partei', 0.001)] 
 
 ### Topic: 5 | weights_mean: 0.0017 | relative weight: 0.0806 | Video
@@ -424,13 +428,13 @@
 ### Topic: 3 | weights_mean: 0.0014 | relative weight: 0.1167 | Parteien
 [('afd ', 0.002), ('cdu ', 0.002), ('meinung ', 0.002), ('menschen ', 0.002), ('geben ', 0.001), ('video ', 0.001), ('partei ', 0.001), ('wirklich ', 0.001), ('egal ', 0.001), ('denen', 0.001)] 
 
-### Topic: 4 | weights_mean: 0.0016 | relative weight: 0.1333 | Hetze
+### Topic: 4 | weights_mean: 0.0016 | relative weight: 0.1333 | Unbekannt
 [('afd ', 0.002), ('video ', 0.002), ('menschen ', 0.002), ('wählen ', 0.002), ('cannabis ', 0.002), ('erben ', 0.002), ('parteien ', 0.001), ('rezo ', 0.001), ('hetze ', 0.001), ('adrenochrom', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.0022 | relative weight: 0.1833 | Video
+### Topic: 5 | weights_mean: 0.0022 | relative weight: 0.1833 | Unbekannt
 [('cdu ', 0.004), ('afd ', 0.003), ('deutschland ', 0.003), ('gemacht ', 0.002), ('rezo ', 0.002), ('gut ', 0.002), ('video ', 0.002), ('pispers ', 0.002), ('fakten ', 0.001), ('corona', 0.001)] 
 
-### Topic: 6 | weights_mean: 0.0012 | relative weight: 0.1 | Video
+### Topic: 6 | weights_mean: 0.0012 | relative weight: 0.1 | Unbekannt
 [('geld ', 0.002), ('video ', 0.002), ('rezo ', 0.001), ('schüler ', 0.001), ('kinder ', 0.001), ('ne ', 0.001), ('afd ', 0.001), ('erde ', 0.001), ('meinung ', 0.001), ('heute', 0.001)] 
 
 ### Topic: 7 | weights_mean: 0.0011 | relative weight: 0.0917 | Unbekannt
@@ -453,10 +457,10 @@
 ### Topic: 3 | weights_mean: 0.0025 | relative weight: 0.1025 | Propaganda
 [('afd ', 0.003), ('deutschland ', 0.003), ('umkehrschluss ', 0.003), ('früher ', 0.003), ('stasi ', 0.003), ('mario ', 0.002), ('wählt ', 0.002), ('methoden ', 0.002), ('nsdap ', 0.002), ('ddr', 0.002)] 
 
-### Topic: 4 | weights_mean: 0.002 | relative weight: 0.082 | Klima
+### Topic: 4 | weights_mean: 0.002 | relative weight: 0.082 | Unbekannt
 [('grünen ', 0.003), ('video ', 0.002), ('würdest ', 0.002), ('schlafen ', 0.002), ('parteien ', 0.002), ('beleidigt ', 0.002), ('partei ', 0.002), ('afd ', 0.002), ('klimawandel ', 0.002), ('möchte', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.003 | relative weight: 0.123 | Hassrede
+### Topic: 5 | weights_mean: 0.003 | relative weight: 0.123 | Hetze
 [('konversation ', 0.003), ('überlassen ', 0.003), ('feld ', 0.003), ('dauer ', 0.003), ('dagegenhalten ', 0.003), ('afdfans ', 0.003), ('wobei ', 0.003), ('handwerkszeug ', 0.003), ('insbesondere ', 0.003), ('sinnlos', 0.003)] 
 
 ### Topic: 6 | weights_mean: 0.0013 | relative weight: 0.0533 | Unbekannt
@@ -465,7 +469,7 @@
 ### Topic: 7 | weights_mean: 0.0015 | relative weight: 0.0615 | Unbekannt
 [('arbeiten ', 0.002), ('mario ', 0.002), ('like ', 0.002), ('welt ', 0.002), ('richtig ', 0.002), ('leute ', 0.001), ('video ', 0.001), ('besser ', 0.001), ('deswegen ', 0.001), ('wasserstoff', 0.001)] 
 
-### Topic: 8 | weights_mean: 0.0093 | relative weight: 0.3811 | Video
+### Topic: 8 | weights_mean: 0.0093 | relative weight: 0.3811 | Unbekannt
 [('reagieren ', 0.013), ('argumente ', 0.013), ('youtube ', 0.01), ('kanal ', 0.01), ('existenz ', 0.01), ('afd ', 0.009), ('unvermittelt ', 0.007), ('anbringen ', 0.007), ('scheuen ', 0.007), ('handlungen', 0.007)] 
 
 
@@ -482,7 +486,7 @@
 ### Topic: 3 | weights_mean: 0.0013 | relative weight: 0.0714 | Soziale Gerechtigkeit
 [('gerechtigkeit ', 0.002), ('danke ', 0.002), ('meinung ', 0.002), ('rezo ', 0.001), ('leute ', 0.001), ('afd ', 0.001), ('lass ', 0.001), ('beleidigt ', 0.001), ('generation ', 0.001), ('mist', 0.001)] 
 
-### Topic: 4 | weights_mean: 0.002 | relative weight: 0.1099 | Video
+### Topic: 4 | weights_mean: 0.002 | relative weight: 0.1099 | Unbekannt
 [('afd ', 0.003), ('durchschauen ', 0.003), ('bösen ', 0.002), ('video ', 0.002), ('grünen ', 0.002), ('warum ', 0.002), ('link ', 0.002), ('weniger ', 0.002), ('leicht ', 0.001), ('typen', 0.001)] 
 
 ### Topic: 5 | weights_mean: 0.0029 | relative weight: 0.1593 | Hassrede
@@ -517,13 +521,13 @@
 ### Topic: 5 | weights_mean: 0.0016 | relative weight: 0.0947 | Propaganda
 [('afd ', 0.003), ('nazi ', 0.002), ('krimineller ', 0.002), ('flüchtlinge ', 0.002), ('früher ', 0.002), ('bullshit ', 0.001), ('leben ', 0.001), ('meinung ', 0.001), ('problem ', 0.001), ('belegen', 0.001)] 
 
-### Topic: 6 | weights_mean: 0.0022 | relative weight: 0.1302 | Propaganda
+### Topic: 6 | weights_mean: 0.0022 | relative weight: 0.1302 | Unbekannt
 [('afd ', 0.004), ('deutschland ', 0.002), ('eike ', 0.002), ('sieht ', 0.002), ('gut ', 0.002), ('video ', 0.002), ('gerne ', 0.002), ('offenbart ', 0.002), ('abend ', 0.002), ('nazi', 0.002)] 
 
-### Topic: 7 | weights_mean: 0.0012 | relative weight: 0.071 | Propaganda
+### Topic: 7 | weights_mean: 0.0012 | relative weight: 0.071 | Unbekannt
 [('lüge ', 0.002), ('video ', 0.002), ('halt ', 0.001), ('menschen ', 0.001), ('lange ', 0.001), ('stand ', 0.001), ('nazi ', 0.001), ('lügen ', 0.001), ('monaten ', 0.001), ('cdu', 0.001)] 
 
-### Topic: 8 | weights_mean: 0.0022 | relative weight: 0.1302 | Hassrede
+### Topic: 8 | weights_mean: 0.0022 | relative weight: 0.1302 | Unbekannt
 [('afd ', 0.003), ('nazi ', 0.003), ('ströer ', 0.002), ('gehört ', 0.002), ('leute ', 0.002), ('eike ', 0.002), ('schlecht ', 0.002), ('weniger ', 0.002), ('fall ', 0.002), ('rezos', 0.002)] 
 
 
@@ -540,13 +544,13 @@
 ### Topic: 3 | weights_mean: 0.0026 | relative weight: 0.1012 | Propaganda
 [('eike ', 0.004), ('afd ', 0.003), ('nazi ', 0.003), ('marionette ', 0.003), ('boomer ', 0.003), ('iq ', 0.002), ('affine ', 0.002), ('corona ', 0.002), ('prost ', 0.002), ('troll', 0.002)] 
 
-### Topic: 4 | weights_mean: 0.0019 | relative weight: 0.0739 | Hassrede
+### Topic: 4 | weights_mean: 0.0019 | relative weight: 0.0739 | Unbekannt
 [('film ', 0.002), ('meinung ', 0.002), ('leute ', 0.002), ('afd ', 0.002), ('faschisten ', 0.002), ('grünen ', 0.002), ('prozent ', 0.002), ('ideologie ', 0.002), ('nazi ', 0.002), ('entspricht', 0.001)] 
 
 ### Topic: 5 | weights_mean: 0.0017 | relative weight: 0.0661 | Propaganda
 [('afd ', 0.002), ('passen ', 0.002), ('galileo ', 0.002), ('eike ', 0.002), ('user ', 0.002), ('zwei ', 0.002), ('ab ', 0.002), ('klimaskeptiker ', 0.001), ('institut ', 0.001), ('heute', 0.001)] 
 
-### Topic: 6 | weights_mean: 0.0027 | relative weight: 0.1051 | Hassrede
+### Topic: 6 | weights_mean: 0.0027 | relative weight: 0.1051 | Unbekannt
 [('abonnenten ', 0.005), ('ppm ', 0.005), ('versucht ', 0.003), ('nazi ', 0.002), ('anstieg ', 0.002), ('beleidigt ', 0.002), ('bekommen ', 0.002), ('ende ', 0.002), ('job ', 0.002), ('normale', 0.002)] 
 
 ### Topic: 7 | weights_mean: 0.0022 | relative weight: 0.0856 | Klima
@@ -563,7 +567,7 @@
 ### Topic: 1 | weights_mean: 0.005 | relative weight: 0.3106 | Hassrede
 [('verbreitet ', 0.005), ('troll ', 0.005), ('gelernt ', 0.005), ('konversation ', 0.005), ('heimleiter ', 0.005), ('mami ', 0.005), ('unterstellungen ', 0.005), ('oh ', 0.005), ('lügen ', 0.005), ('normale', 0.005)] 
 
-### Topic: 2 | weights_mean: 0.0012 | relative weight: 0.0745 | Politiker
+### Topic: 2 | weights_mean: 0.0012 | relative weight: 0.0745 | Unbekannt
 [('antifa ', 0.002), ('bereits ', 0.002), ('deutlich ', 0.001), ('zeit ', 0.001), ('menschen ', 0.001), ('ev ', 0.001), ('trump ', 0.001), ('afd ', 0.001), ('biden ', 0.001), ('allein', 0.001)] 
 
 ### Topic: 3 | weights_mean: 0.001 | relative weight: 0.0621 | Corona
@@ -572,7 +576,7 @@
 ### Topic: 4 | weights_mean: 0.0012 | relative weight: 0.0745 | Unbekannt
 [('antifa ', 0.002), ('afd ', 0.002), ('cdu ', 0.001), ('nennen ', 0.001), ('beleidigen ', 0.001), ('meinung ', 0.001), ('trump ', 0.001), ('pro ', 0.001), ('deutlich ', 0.001), ('nächsten', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.0011 | relative weight: 0.0683 | Klima
+### Topic: 5 | weights_mean: 0.0011 | relative weight: 0.0683 | Unbekannt
 [('afd ', 0.002), ('prozent ', 0.001), ('siehe ', 0.001), ('deutschland ', 0.001), ('menschen ', 0.001), ('video ', 0.001), ('jahren ', 0.001), ('rund ', 0.001), ('ipcc ', 0.001), ('beispiel', 0.001)] 
 
 ### Topic: 6 | weights_mean: 0.0024 | relative weight: 0.1491 | Hassrede
@@ -581,7 +585,7 @@
 ### Topic: 7 | weights_mean: 0.0018 | relative weight: 0.1118 | Unbekannt
 [('abonnenten ', 0.004), ('et ', 0.002), ('al ', 0.002), ('versucht ', 0.002), ('job ', 0.002), ('folge ', 0.002), ('lügner ', 0.001), ('user ', 0.001), ('jahre ', 0.001), ('deutschland', 0.001)] 
 
-### Topic: 8 | weights_mean: 0.0024 | relative weight: 0.1491 | Unbekannt
+### Topic: 8 | weights_mean: 0.0024 | relative weight: 0.1491 | Soziale Gerechtigkeit
 [('afd ', 0.004), ('leben ', 0.003), ('philosophie ', 0.003), ('wohnungen ', 0.002), ('leute ', 0.002), ('menschen ', 0.002), ('aufmerksamkeit ', 0.002), ('provokation ', 0.002), ('versucht ', 0.002), ('dreck', 0.002)] 
 
 
@@ -598,16 +602,16 @@
 ### Topic: 3 | weights_mean: 0.0031 | relative weight: 0.2 | Hassrede
 [('kommentare ', 0.006), ('versager ', 0.004), ('gelöscht ', 0.003), ('beleidigungen ', 0.003), ('unterstellungen ', 0.003), ('maniac ', 0.003), ('kanal ', 0.003), ('afd ', 0.002), ('lügen ', 0.002), ('zuvor', 0.002)] 
 
-### Topic: 4 | weights_mean: 0.0016 | relative weight: 0.1032 | Unbekannt
+### Topic: 4 | weights_mean: 0.0016 | relative weight: 0.1032 | Propaganda
 [('afd ', 0.002), ('cdu ', 0.002), ('stöckchen ', 0.002), ('video ', 0.002), ('lasst ', 0.002), ('eike ', 0.002), ('leute ', 0.001), ('sowieso ', 0.001), ('mio ', 0.001), ('wiederlegen', 0.001)] 
 
-### Topic: 5 | weights_mean: 0.0014 | relative weight: 0.0903 | Unbekannt
+### Topic: 5 | weights_mean: 0.0014 | relative weight: 0.0903 | Propaganda
 [('afd ', 0.003), ('eike ', 0.002), ('regierung ', 0.002), ('ui ', 0.001), ('ev ', 0.001), ('meinung ', 0.001), ('sowas ', 0.001), ('maske ', 0.001), ('heute ', 0.001), ('klimaschutz', 0.001)] 
 
 ### Topic: 6 | weights_mean: 0.0016 | relative weight: 0.1032 | Politiker
 [('afd ', 0.003), ('rechts ', 0.002), ('corona ', 0.002), ('klima ', 0.002), ('auswirkungen ', 0.002), ('cdu ', 0.001), ('weidel ', 0.001), ('gleich ', 0.001), ('rede ', 0.001), ('witzig', 0.001)] 
 
-### Topic: 7 | weights_mean: 0.0022 | relative weight: 0.1419 | Propaganda
+### Topic: 7 | weights_mean: 0.0022 | relative weight: 0.1419 | Unbekannt
 [('cdu ', 0.003), ('afd ', 0.003), ('boomer ', 0.002), ('leben ', 0.002), ('wählen ', 0.002), ('troll ', 0.002), ('propaganda ', 0.002), ('selber ', 0.002), ('mario ', 0.002), ('partei', 0.002)] 
 
 ### Topic: 8 | weights_mean: 0.002 | relative weight: 0.129 | Parteien
