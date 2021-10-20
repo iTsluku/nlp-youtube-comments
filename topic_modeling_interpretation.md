@@ -19,13 +19,13 @@
 + Propaganda
 
 
-### context of special keywords
+### special keywords
 
 + Oliver Janich: rechtspopulistische, fremdenfeindliche, antisemitische und verschwörungstheoretische Ansichten
 + Tube One: Influencer Agentur  --Rezo Bezug
 + Ströer Media: Vermarktung von Online- und Außenwerbung  --Tube One Bezug
-+ Hambacher Forst: Widerstands der Anti-Kohlekraft-Bewegung (Widerstand mit Todesfall)
-+ Miene Waziri:
++ Hambacher Forst: Widerstands der Anti-Kohlekraft-Bewegung (mit Todesfall)
++ Miene Waziri
 + Eike
 + Volksverpetzer
 + ipcc
@@ -33,8 +33,9 @@
 + Boris Palmer
 + Werner Vogel
 + Alice Weidel
++ Demagogie: ideologische Hetze/ Volksverführung/ Propaganda
 
-### labeling alg/ sequential steps/ guidelines
+### labeling alg./ sequential steps/ guidelines
 TODO
 
 
@@ -42,7 +43,7 @@ TODO
 
 ## 2019-05 | 8 Topics | coherence 0.7661385957563174
 
-### Topic: 1 | weights_mean: 0.0035 | relative weight: 0.0975 | Klima
+### Topic: 1 | weights_mean: 0.0035 | relative weight: 0.0975 | Unbekannt
 [('idee ', 0.004), ('co² ', 0.004), ('böse ', 0.004), ('kritisieren ', 0.004), ('immerhin ', 0.004), ('unsinn ', 0.003), ('schlechter ', 0.003), ('mindestens ', 0.003), ('treibhauseffekt ', 0.003), ('verstehst', 0.003)] 
 
 ### Topic: 2 | weights_mean: 0.004 | relative weight: 0.1114 | Klima
@@ -129,7 +130,7 @@ TODO
 
 ## 2019-08 | 8 Topics | coherence 0.7964136545083715
 
-### Topic: 1 | weights_mean: 0.0011 | relative weight: 0.0932 | Video
+### Topic: 1 | weights_mean: 0.0011 | relative weight: 0.0932 | Unbekannt
 [('video ', 0.002), ('menschen ', 0.001), ('rezo ', 0.001), ('gut ', 0.001), ('meinung ', 0.001), ('halt ', 0.001), ('ela ', 0.001), ('geld ', 0.001), ('wirklich ', 0.001), ('neuen', 0.001)] 
 
 ### Topic: 2 | weights_mean: 0.0018 | relative weight: 0.1525 | Unbekannt
@@ -144,7 +145,7 @@ TODO
 ### Topic: 5 | weights_mean: 0.0013 | relative weight: 0.1102 | Video
 [('rezo ', 0.002), ('video ', 0.002), ('deutschland ', 0.002), ('afd ', 0.001), ('cdu ', 0.001), ('warum ', 0.001), ('grünen ', 0.001), ('wahrheit ', 0.001), ('jahren ', 0.001), ('welt', 0.001)] 
 
-### Topic: 6 | weights_mean: 0.0018 | relative weight: 0.1525 | Klima
+### Topic: 6 | weights_mean: 0.0018 | relative weight: 0.1525 | Video
 [('video ', 0.003), ('rezo ', 0.002), ('menschen ', 0.002), ('klimawandel ', 0.002), ('leute ', 0.002), ('quellen ', 0.002), ('grünen ', 0.002), ('gut ', 0.001), ('deutsch ', 0.001), ('afd', 0.001)] 
 
 ### Topic: 7 | weights_mean: 0.0021 | relative weight: 0.178 | Video
@@ -161,7 +162,7 @@ TODO
 ### Topic: 1 | weights_mean: 0.0011 | relative weight: 0.117 | Video
 [('video ', 0.002), ('auto ', 0.001), ('klima ', 0.001), ('menschen ', 0.001), ('rezo ', 0.001), ('recht ', 0.001), ('leute ', 0.001), ('welt ', 0.001), ('deswegen ', 0.001), ('leider', 0.001)] 
 
-### Topic: 2 | weights_mean: 0.0015 | relative weight: 0.1596 | Propaganda
+### Topic: 2 | weights_mean: 0.0015 | relative weight: 0.1596 | Unbekannt
 [('video ', 0.002), ('menschen ', 0.002), ('warum ', 0.002), ('meinung ', 0.002), ('rezo ', 0.002), ('leben ', 0.001), ('schattenregierung ', 0.001), ('wirklich ', 0.001), ('lässt ', 0.001), ('finanzdiktatur', 0.001)] 
 
 ### Topic: 3 | weights_mean: 0.0011 | relative weight: 0.117 | Video
@@ -190,7 +191,7 @@ TODO
 ### Topic: 1 | weights_mean: 0.0011 | relative weight: 0.1009 | Unbekannt
 [('deutschland ', 0.002), ('problem ', 0.001), ('klima ', 0.001), ('welt ', 0.001), ('afd ', 0.001), ('kommentar ', 0.001), ('leute ', 0.001), ('länder ', 0.001), ('schule ', 0.001), ('eher', 0.001)] 
 
-### Topic: 2 | weights_mean: 0.0013 | relative weight: 0.1193 | Video
+### Topic: 2 | weights_mean: 0.0013 | relative weight: 0.1193 | Unbekannt
 [('meinung ', 0.002), ('menschen ', 0.002), ('finde ', 0.002), ('gut ', 0.001), ('hoffe ', 0.001), ('warum ', 0.001), ('video ', 0.001), ('welt ', 0.001), ('partei ', 0.001), ('bzw', 0.001)] 
 
 ### Topic: 3 | weights_mean: 0.0012 | relative weight: 0.1101 | Unbekannt
@@ -202,13 +203,13 @@ TODO
 ### Topic: 5 | weights_mean: 0.0015 | relative weight: 0.1376 | Video
 [('video ', 0.002), ('menschen ', 0.002), ('rezo ', 0.002), ('cdu ', 0.002), ('zeit ', 0.002), ('parteien ', 0.001), ('user ', 0.001), ('youtube ', 0.001), ('politische ', 0.001), ('mensch', 0.001)] 
 
-### Topic: 6 | weights_mean: 0.0015 | relative weight: 0.1376 | Video
+### Topic: 6 | weights_mean: 0.0015 | relative weight: 0.1376 | Unbekannt
 [('wirklich ', 0.002), ('meinung ', 0.002), ('menschen ', 0.002), ('quellen ', 0.002), ('wissen ', 0.002), ('video ', 0.001), ('afd ', 0.001), ('kannst ', 0.001), ('boden ', 0.001), ('nochmal', 0.001)] 
 
 ### Topic: 7 | weights_mean: 0.0016 | relative weight: 0.1468 | Video
 [('rezo ', 0.003), ('meinung ', 0.002), ('video ', 0.002), ('grünen ', 0.002), ('niemand ', 0.002), ('cdu ', 0.001), ('menschen ', 0.001), ('afd ', 0.001), ('schmitt ', 0.001), ('gut', 0.001)] 
 
-### Topic: 8 | weights_mean: 0.0011 | relative weight: 0.1009 | Video
+### Topic: 8 | weights_mean: 0.0011 | relative weight: 0.1009 | Unbekannt
 [('schüler ', 0.002), ('politik ', 0.001), ('augen ', 0.001), ('quellen ', 0.001), ('wahrscheinlich ', 0.001), ('stimmt ', 0.001), ('fakten ', 0.001), ('meinungen ', 0.001), ('denke ', 0.001), ('sonne', 0.001)] 
 
 
@@ -216,13 +217,13 @@ TODO
 
 ## 2019-11 | 8 Topics | coherence 0.7875186043468638
 
-### Topic: 1 | weights_mean: 0.001 | relative weight: 0.1111 | Klima
+### Topic: 1 | weights_mean: 0.001 | relative weight: 0.1111 | Unbekannt
 [('cdu ', 0.001), ('wirklich ', 0.001), ('afd ', 0.001), ('video ', 0.001), ('menschen ', 0.001), ('eike ', 0.001), ('klimawandel ', 0.001), ('leute ', 0.001), ('gut ', 0.001), ('leben', 0.001)] 
 
-### Topic: 2 | weights_mean: 0.001 | relative weight: 0.1111 | Klima
+### Topic: 2 | weights_mean: 0.001 | relative weight: 0.1111 | Unbekannt
 [('grünen ', 0.001), ('methan ', 0.001), ('warum ', 0.001), ('linken ', 0.001), ('gut ', 0.001), ('welt ', 0.001), ('deutschen ', 0.001), ('afd ', 0.001), ('vielen ', 0.001), ('menschen', 0.001)] 
 
-### Topic: 3 | weights_mean: 0.001 | relative weight: 0.1111 | Parteien
+### Topic: 3 | weights_mean: 0.001 | relative weight: 0.1111 | Unbekannt
 [('jahren ', 0.001), ('afd ', 0.001), ('gut ', 0.001), ('trotzdem ', 0.001), ('grünen ', 0.001), ('mario ', 0.001), ('partei ', 0.001), ('glaube ', 0.001), ('parteien ', 0.001), ('fakten', 0.001)] 
 
 ### Topic: 4 | weights_mean: 0.0011 | relative weight: 0.1222 | Unbekannt
@@ -234,7 +235,7 @@ TODO
 ### Topic: 6 | weights_mean: 0.0013 | relative weight: 0.1444 | Video
 [('video ', 0.003), ('deutschland ', 0.002), ('menschen ', 0.001), ('afd ', 0.001), ('gerade ', 0.001), ('grünen ', 0.001), ('tag ', 0.001), ('leute ', 0.001), ('kinder ', 0.001), ('kleinen', 0.001)] 
 
-### Topic: 7 | weights_mean: 0.001 | relative weight: 0.1111 | Video
+### Topic: 7 | weights_mean: 0.001 | relative weight: 0.1111 | Unbekannt
 [('sprache ', 0.001), ('menschen ', 0.001), ('denken ', 0.001), ('meinung ', 0.001), ('geben ', 0.001), ('halt ', 0.001), ('rechten ', 0.001), ('deutschland ', 0.001), ('recht ', 0.001), ('politiker', 0.001)] 
 
 ### Topic: 8 | weights_mean: 0.0013 | relative weight: 0.1444 | Parteien
@@ -245,10 +246,10 @@ TODO
 
 ## 2019-12 | 8 Topics | coherence 0.7845931779013904
 
-### Topic: 1 | weights_mean: 0.0013 | relative weight: 0.1171 | Video
+### Topic: 1 | weights_mean: 0.0013 | relative weight: 0.1171 | Unbekannt
 [('afd ', 0.002), ('nazi ', 0.002), ('leben ', 0.002), ('leute ', 0.001), ('studien ', 0.001), ('welt ', 0.001), ('wissen ', 0.001), ('fakten ', 0.001), ('deutschland ', 0.001), ('video', 0.001)] 
 
-### Topic: 2 | weights_mean: 0.0014 | relative weight: 0.1261 | Klima
+### Topic: 2 | weights_mean: 0.0014 | relative weight: 0.1261 | Propaganda
 [('afd ', 0.002), ('eike ', 0.002), ('demagogen ', 0.002), ('troll ', 0.002), ('klimawandel ', 0.001), ('gab ', 0.001), ('gut ', 0.001), ('wissenschaftler ', 0.001), ('wissenschaft ', 0.001), ('verdammt', 0.001)] 
 
 ### Topic: 3 | weights_mean: 0.0014 | relative weight: 0.1261 | Propaganda
@@ -263,10 +264,10 @@ TODO
 ### Topic: 6 | weights_mean: 0.0014 | relative weight: 0.1261 | Propaganda
 [('cdu ', 0.002), ('euro ', 0.002), ('afd ', 0.002), ('sonne ', 0.002), ('demagogen ', 0.001), ('mb ', 0.001), ('eike ', 0.001), ('grünen ', 0.001), ('ev ', 0.001), ('bekommen', 0.001)] 
 
-### Topic: 7 | weights_mean: 0.001 | relative weight: 0.0901 | Video
+### Topic: 7 | weights_mean: 0.001 | relative weight: 0.0901 | Unbekannt
 [('kinder ', 0.001), ('rezo ', 0.001), ('augen ', 0.001), ('weniger ', 0.001), ('afd ', 0.001), ('politik ', 0.001), ('fakten ', 0.001), ('partei ', 0.001), ('video ', 0.001), ('arbeiten', 0.001)] 
 
-### Topic: 8 | weights_mean: 0.0013 | relative weight: 0.1171 | Klima
+### Topic: 8 | weights_mean: 0.0013 | relative weight: 0.1171 | Unbekannt
 [('video ', 0.002), ('eike ', 0.002), ('afd ', 0.002), ('menschen ', 0.001), ('warum ', 0.001), ('co² ', 0.001), ('klimawandel ', 0.001), ('mario ', 0.001), ('erst ', 0.001), ('wasser', 0.001)] 
 
 
