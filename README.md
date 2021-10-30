@@ -1,5 +1,5 @@
-# nlp-youtube-comments
-**case study: Rezo - Die Zerstörung der CDU**
+# Explorative Textanalyse mit dem Topic Modeling Verfahren LDA
+## Fallstudie: Kommentare des Rezo-Videos "Die Zerstörung der CDU"
 
 ![topic_modeling](data/png/topic_modeling.png)
 
